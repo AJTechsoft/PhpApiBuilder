@@ -1,0 +1,79 @@
+<html>
+<body>
+  <p><strong>PHP API Builder - CLI User Manual</strong></p>
+<p><strong>Introduction:</strong></p>
+<p>PHP API Builder - CLI is a command-line tool designed to facilitate the creation of API files for CRUD operations on a specified database table. By following a few simple steps, users can quickly generate PHP files that handle Create, Read, Update, and Delete operations for a chosen table.</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>PHP installed on your system.</li>
+<li>Access to the database you want to generate API files for.</li>
+</ul>
+<p><strong>Usage:</strong></p>
+<ol>
+<li><p><strong>Run the CLI Tool:</strong></p>
+<ul>
+<li>Open <em>PhpApiBuilder.exe</em> CLI tool where it is located.</li>
+</ul>
+</li>
+<li><p><strong>Input Hostname:</strong></p>
+<ul>
+<li>When prompted, enter the hostname of your database server. If it&#39;s &#39;localhost&#39;, you can press Enter to proceed with the default value.</li>
+</ul>
+</li>
+<li><p><strong>Input Database Name:</strong></p>
+<ul>
+<li>Enter the name of the database you want to generate API files for.</li>
+</ul>
+</li>
+<li><p><strong>Input Username:</strong></p>
+<ul>
+<li>Provide the username to access the specified database.</li>
+</ul>
+</li>
+<li><p><strong>Input Password:</strong></p>
+<ul>
+<li>If your database requires a password, enter it when prompted. If there&#39;s no password, you can press Enter to proceed with an empty password.</li>
+</ul>
+</li>
+<li><p><strong>Enter PHP File Name:</strong></p>
+<ul>
+<li>Specify the desired name for the PHP file that will be generated. Do not include the &quot;.php&quot; extension.</li>
+</ul>
+</li>
+<li><p><strong>Enter Table Name:</strong></p>
+<ul>
+<li>Input the name of the table for which you want to generate CRUD operations API.</li>
+</ul>
+</li>
+<li><p><strong>Review Output:</strong></p>
+<ul>
+<li>Once all the necessary information is provided, the CLI tool will generate the PHP file containing CRUD operations for the specified table.</li>
+<li>If any errors occur during the process (e.g., invalid credentials, table not found), the CLI will display an error message and prompt you to restart the process from the beginning.</li>
+</ul>
+</li>
+<li><p><strong>Accessing Generated Files:</strong></p>
+<ul>
+<li>The generated PHP file will be available in the same directory where the CLI tool is located.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example:</strong></p>
+<p>Suppose you want to generate API files for a database named &quot;my_database&quot; with the table &quot;users&quot;. Here&#39;s how you would use the PHP API Builder - CLI tool:</p>
+<pre><code><span class="hljs-keyword">Enter</span> hostname (<span class="hljs-meta">default</span>: localhost): localhost
+<span class="hljs-keyword">Enter</span> database name: my_database
+<span class="hljs-keyword">Enter</span> username: my_username
+<span class="hljs-keyword">Enter</span> password (<span class="hljs-meta">default</span>: empty):
+<span class="hljs-keyword">Enter</span> PHP file name (without .php extension): users_api
+<span class="hljs-keyword">Enter</span> table name: users
+</code></pre><p>After providing the necessary information, the tool will generate the &quot;users_api.php&quot; file in the tool&#39;s directory.</p>
+<p><strong>Note:</strong></p>
+<ul>
+<li>Make sure to review the generated PHP file to ensure it meets your requirements and security standards before using it in your project.</li>
+<li>It&#39;s recommended to back up your database before performing any CRUD operations using the generated API files.</li>
+<li>For any assistance or issues with the PHP API Builder - CLI tool, refer to the documentation or contact support.</li>
+</ul>
+<p>This manual provides a comprehensive guide for using the PHP API Builder - CLI tool to efficiently generate API files for CRUD operations on your database tables.</p>
+
+</body>
+  
+</html>
